@@ -1,0 +1,2 @@
+void brpcserver();
+void brpcclient();

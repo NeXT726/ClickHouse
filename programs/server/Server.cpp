@@ -88,6 +88,9 @@
 #include <Interpreters/AsynchronousInsertQueue.h>
 #include <filesystem>
 
+#include <iostream>
+#include <MQCache/common.h>
+
 #include "config_core.h"
 #include "Common/config_version.h"
 
@@ -643,6 +646,15 @@ static void sanityChecks(Server & server)
 
 int Server::main(const std::vector<std::string> & /*args*/)
 {
+
+    std::cout << "DJLTEST" << std::endl; 
+    std::cout << "DJLTEST" << std::endl; 
+    std::cout << "DJLTEST" << std::endl; 
+    std::cout << "DJLTEST" << std::endl; 
+    std::cout << "DJLTEST" << std::endl; 
+    brpcserver();
+    // while(1) ;    
+
     Poco::Logger * log = &logger();
 
     UseSSL use_ssl;

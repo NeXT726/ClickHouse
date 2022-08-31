@@ -44,6 +44,8 @@
 #include <AggregateFunctions/registerAggregateFunctions.h>
 #include <Formats/registerFormats.h>
 
+#include <MQCache/common.h>
+
 #ifndef __clang__
 #pragma GCC optimize("-fno-var-tracking-assignments")
 #endif
@@ -230,6 +232,14 @@ void Client::initialize(Poco::Util::Application & self)
 int Client::main(const std::vector<std::string> & /*args*/)
 try
 {
+    std::cout << "DJLTEST" << std::endl; 
+    std::cout << "DJLTEST" << std::endl; 
+    std::cout << "DJLTEST" << std::endl; 
+    std::cout << "DJLTEST" << std::endl; 
+    std::cout << "DJLTEST" << std::endl; 
+    brpcclient();
+    // while(1) ;    
+
     UseSSL use_ssl;
     MainThreadStatus::getInstance();
     setupSignalHandler();

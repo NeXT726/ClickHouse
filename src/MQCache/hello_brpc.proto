@@ -1,0 +1,19 @@
+syntax = "proto2";
+package example;
+
+option cc_generic_services = true;
+
+message HelloRequest
+{
+    required string message = 1;
+};
+
+message HelloResponse
+{
+    required string message = 1;
+};
+
+service HelloService
+{
+    rpc Hello(HelloRequest) returns(HelloResponse);
+};

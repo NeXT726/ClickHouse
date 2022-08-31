@@ -49,6 +49,8 @@ else()
 endif()
 
 
+add_subdirectory (MQCache)
+
 add_subdirectory (Access)
 add_subdirectory (Backups)
 add_subdirectory (Columns)
@@ -412,6 +414,7 @@ dbms_target_link_libraries (
         Poco::JSON
         string_utils
     PUBLIC
+        clickhouse_cache
         boost::system
         clickhouse_common_io
         Poco::MongoDB
