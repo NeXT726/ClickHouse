@@ -49,7 +49,6 @@ function(add_contrib cmake_folder)
     add_subdirectory (${cmake_folder})
 endfunction()
 
-add_contrib (brpc-cmake brpc)
 add_contrib (miniselect-cmake miniselect)
 add_contrib (pdqsort-cmake pdqsort)
 add_contrib (sparsehash-c11-cmake sparsehash-c11)

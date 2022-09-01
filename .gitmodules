@@ -280,7 +280,3 @@
 [submodule "contrib/c-ares"]
 	path = contrib/c-ares
 	url = https://github.com/ClickHouse/c-ares
-[submodule "brpc"]
-	path = contrib/brpc
-	url = git@github.com:NeXT726/incubator-brpc.git
-	branch = ck-1.1
