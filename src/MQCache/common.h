@@ -1,2 +1,2 @@
-void brpcserver();
-void brpcclient();
+int ClientTest();
+int ServerTest();

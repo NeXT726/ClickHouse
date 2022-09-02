@@ -1,1 +1,0 @@
-/usr/local/bin/protoc --cpp_out=.  --proto_path=. hello_brpc.protoc

@@ -237,7 +237,7 @@ try
     std::cout << "DJLTEST" << std::endl; 
     std::cout << "DJLTEST" << std::endl; 
     std::cout << "DJLTEST" << std::endl; 
-    brpcclient();
+    ClientTest();
     // while(1) ;    
 
     UseSSL use_ssl;

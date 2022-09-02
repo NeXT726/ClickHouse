@@ -652,7 +652,7 @@ int Server::main(const std::vector<std::string> & /*args*/)
     std::cout << "DJLTEST" << std::endl; 
     std::cout << "DJLTEST" << std::endl; 
     std::cout << "DJLTEST" << std::endl; 
-    brpcserver();
+    ServerTest();
     // while(1) ;    
 
     Poco::Logger * log = &logger();
